@@ -28,6 +28,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
+      <Footer />
       
     </>
   )
