@@ -6,7 +6,14 @@ export default {
 
 ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        dark: "#18181",
+      },
+    },
   },
   plugins: [],
 }
