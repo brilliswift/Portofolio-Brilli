@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Hero from "./components/hero";
-import Sitemap from "./components/sitemap.jsx";
+import Sitemap from "./components/sitemap";
+import About from "./components/about.jsx";
+
 
 const App = () => { 
 return (
@@ -11,9 +13,11 @@ return (
                 Profil
             </h1>
             <Hero/>
-        </div>
-        </>
-        )
-        }
+            <About/>
 
-        export default App
+        </div>
+    </>
+)
+}
+
+export default App;
