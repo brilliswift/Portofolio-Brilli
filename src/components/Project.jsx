@@ -1,40 +1,39 @@
 import React from 'react';
+import styled from '@emotion/styled';
 import styles from '../styles';
-import { projects } from '../constants/index.js';
+import { projects } from '../constants/index';
+
+const ProjectContainer = styled.div`
+    margin-top: 2rem;
+  display: flex;
+  flex-direction: column; /* Stack heading and grid vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+    
+
+  ${styles.projectContainer}; /* Apply styles from your global stylesheet */
+`;
+
+const ProjectHeading = styled.h3`
+  text-align: center; /* Center heading text horizontally */
+`;
 
 const Project = () => {
     return (
-        <div className="project-container">
-            <h3 className={`${styles.heading3}`}>Project</h3>
-            <div className="project-grid flex flex-wrap sm:justify-start w-full">
+        <ProjectContainer className="project-container">
+            <ProjectHeading className={`${styles.heading3}`}>Projects</ProjectHeading>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 {projects.map((project) => (
-                    <ProjectCard key={project.id} project={project} /> // Pass project data as prop
+                    <div key={project.id} className="project-card">
+                        <img src={project.image} alt={project.name} className="rounded-lg" />
+                        <h3 className="text-lg font-bold mt-2">{project.name}</h3>
+                        <p className="text-sm mt-1">{project.description}</p>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2">Visit</a>
+                    </div>
                 ))}
             </div>
-        </div>
+        </ProjectContainer>
     );
 };
-
-const ProjectCard = ({ project }) => (
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-        <div className="project-card">
-            <img
-                src={project.image}
-                alt={project.name}
-                className="w-full h-full object-cover rounded-lg"
-            />
-            <h3 className="text-lg font-bold">{project.name}</h3>
-            <p className="text-sm">{project.description}</p>
-            <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-                className="text-blue-500 hover:underline"
-            >
-                Visit
-            </a>
-        </div>
-    </div>
-);
 
 export default Project;
