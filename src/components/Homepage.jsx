@@ -1,8 +1,9 @@
 import React from 'react';
-import Hero from "./Hero.jsx";
-import About from "./About.jsx";
 import {css} from "@emotion/css";
-
+import Hero from "./Hero";
+import About from "./About";
+import Project from "./Project";
+import Experience from "./Experience";
 
 
 const Homepage = () => {
@@ -20,6 +21,8 @@ const Homepage = () => {
             </div>
             <Hero />
             <About />
+            <Project />
+            <Experience/>
         </>
     );
 };
