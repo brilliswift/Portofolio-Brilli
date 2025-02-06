@@ -24,6 +24,8 @@ const ExperienceHeading = styled.h3`
     color : #5badff;
     text-transform: uppercase;
     font-weight: 800;
+    text-shadow: 3px 2px black;
+    margin-bottom: 2rem;
 `;
 
 const Experience = () => {
@@ -32,10 +34,12 @@ const Experience = () => {
             <ExperienceHeading className={`${styles.heading3}`}>Experience</ExperienceHeading>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 mt-8">
                 {experiences.map((experience) => (
-                    <div key={experience.id} className="experience-card">
-                        <h3 className="text-lg font-bold text-white">{experience.company}</h3>
-                        <p className="text-sm">{experience.position}</p>
-                        <p className="text-sm">{experience.duration}</p>
+                    <div key={experience.id} className="experience-card space-y-2 mt-4">
+                        <h3 className="text-lg font-bold text-white mb-6 whitespace-pre">{experience.company}                                                                                                                                                                                       <span
+                            className="text-sm space-x-4 font-light text-[#8491a0]">{experience.duration}</span>
+                        </h3>
+                        {/*<p className="text-sm">{experience.position}</p>*/}
+
                         <p className="text-sm">{experience.description}</p>
                     </div>
                 ))}
