@@ -6,11 +6,11 @@ import Project from "./Project";
 import Experience from "./Experience";
 
 
+
 const Homepage = () => {
     return (
         <>
             <div className={css`
-                      
                         display: flex;
                         align-items: center;
                         justify-content: center;
