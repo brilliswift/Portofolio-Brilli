@@ -9,18 +9,15 @@ const ExperienceContainer = styled.div`
     padding: 200px;
     color: #8491a0;
     font-family: Poppins;
-  display: flex;
-  flex-direction: column; /* Stack heading and grid vertically */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-
-    
-
-  ${styles.experienceContainer}; /* Apply styles from your global stylesheet */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    ${styles.experienceContainer}; 
 `;
 
 const ExperienceHeading = styled.h3`
-  text-align: center;
+    text-align: center;
     color : #5badff;
     text-transform: uppercase;
     font-weight: 800;
@@ -39,7 +36,6 @@ const Experience = () => {
                             className="text-sm space-x-4 font-light text-[#8491a0]">{experience.duration}</span>
                         </h3>
                         {/*<p className="text-sm">{experience.position}</p>*/}
-
                         <p className="text-sm">{experience.description}</p>
                     </div>
                 ))}
