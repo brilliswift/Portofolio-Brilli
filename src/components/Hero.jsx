@@ -12,7 +12,7 @@ const Hero = () => (
                 <h2 className={`${styles.heading2} leading-[20px] tracking-tighter font-weight: 900`}>
                     I do code and
                     <br />
-                    love to projects
+                    love to project
                     <span className="mx-2">
             <span
                 className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent"

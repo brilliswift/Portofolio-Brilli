@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 
 
 const color = 'white'
+
 const Button = styled.button`
     padding: 3px;
     height: 40px;
@@ -39,11 +40,11 @@ const About = () => {
                 </p>
                 <div
                     className={css`
-                       padding: 48px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                       gap: 12px;
+                            padding: 48px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 12px;
                     `}
                 >
                     <div
@@ -53,8 +54,6 @@ const About = () => {
                             align-items: center;
                             justify-content: center;
                             color: grey;
-
-
                         `}
                     >
                         <Button>Get in touch</Button>
@@ -66,16 +65,13 @@ const About = () => {
                             align-items: center;
                             justify-content: center;
                             color: grey;
-
-
                         `}
                     >
                         <Button>Download CV</Button>
                     </div>
                 </div>
                 </div>
-            </>
-            );
-            };
-
-            export default About;
+        </>
+    );
+};
+export default About;
