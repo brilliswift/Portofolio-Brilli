@@ -6,18 +6,17 @@ import styled from '@emotion/styled'
 
 const color = 'white'
 const Button = styled.button`
-  padding: 3px;
+    padding: 3px;
     height: 40px;
     width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-  background-color: #C5C5C5;
-  font-size: 14px;
-  border-radius: 25px;
-  
-  font-weight: bold;
-  &:hover {
+    background-color: #C5C5C5;
+    font-size: 14px;
+    border-radius: 25px;
+    font-weight: bold;
+    &:hover {
     color: white;
   }
 `
