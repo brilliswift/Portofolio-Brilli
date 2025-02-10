@@ -86,25 +86,39 @@ export const projects = [
 export const experiences = [
     {
         id: 'experience-1',
-        company: 'Perusahaan A',
+        company: 'Project Manager at Paw Connect',
         position: 'Software Engineer',
-        duration: '2020 - Sekarang',
+        duration: 'Sept 2024 - Now',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.',
     },
     {
         id: 'experience-2',
-        company: 'Perusahaan B',
+        company: 'Web Developer Intern at PT Kinema Systrans Multimedia',
         position: 'Web Developer',
-        duration: '2018 - 2020',
+        duration: 'Apr - Jun 2024',
         description: 'Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.',
     },
     {
         id: 'experience-3',
-        company: 'Perusahaan C',
-        position: 'IT Support Specialist',
-        duration: '2016 - 2018',
+        company: 'Project Manager Intern at PT Kinema Systrans Multimedia',
+        position: 'Project Manager',
+        duration: 'Feb - Apr 2024',
         description: 'Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.',
     },
+    {
+        id: 'experience-4',
+        company: 'Front-End Web Developer at KBM Al-Mahdiyyin',
+        position: 'Front-End Web Developer',
+        duration: 'Sept - Dec 2023',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.',
+    },
+    {
+        id: 'experience-5',
+        company: 'Cloud Computing Cohort at Bangkit Academy',
+        position: 'Cloud Engineer',
+        duration: 'Feb - Jun 2023',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.'
+    }
     // ... Tambahkan lebih banyak pengalaman jika diperlukan
 ];
 
