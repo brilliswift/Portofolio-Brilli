@@ -16,12 +16,13 @@ const ProjectContainer = styled.div`
 `;
 
 const ProjectHeading = styled.h3`
-  text-align: center;
-    margin-bottom: 2rem;
-    color : #ff855f;
+    text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    text-shadow: 3px 2px black;
+    background: linear-gradient(to bottom, #ffffff 0%, #ff855f 50%, #ff855f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
 `;
 
 const Project = () => {

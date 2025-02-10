@@ -18,10 +18,11 @@ const ExperienceContainer = styled.div`
 
 const ExperienceHeading = styled.h3`
     text-align: center;
-    color : #5badff;
     text-transform: uppercase;
     font-weight: 800;
-    text-shadow: 3px 2px black;
+    background: linear-gradient(to bottom, #ffffff 0%,  #5badff 50%, #5badff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;
 `;
 
@@ -32,9 +33,10 @@ const Experience = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 mt-8">
                 {experiences.map((experience) => (
                     <div key={experience.id} className="experience-card space-y-2 mt-4">
-                        <h3 className="text-lg font-bold text-white mb-6 whitespace-pre">{experience.company}                                                                                                                                                                                       <span
-                            className="text-sm space-x-4 font-light text-[#8491a0]">{experience.duration}</span>
-                        </h3>
+                        <div className="flex justify-between items-center">
+                            <h3 className="text-lg font-bold text-white mb-6 whitespace-pre">{experience.company}</h3>
+                            <span className="text-sm font-light text-[#8491a0]">{experience.duration}</span>
+                        </div>
                         {/*<p className="text-sm">{experience.position}</p>*/}
                         <p className="text-sm">{experience.description}</p>
                     </div>
