@@ -5,7 +5,6 @@ import styled from "@emotion/styled";
 
 
 const ExperienceContainer = styled.div`
-    margin-top: 2rem;
     padding: 200px;
     color: #8491a0;
     font-family: Poppins;
