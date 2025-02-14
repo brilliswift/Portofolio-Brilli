@@ -41,24 +41,24 @@
 export const projects = [
     {
         id: 'project-1',
-        name: 'Project 1',
+        name: 'Paw Connect',
         link: '',
         image: '',
-        description: 'test'
+        description: 'Paw Connect is a user-friendly website that provides a platform for cat lovers to easily find adoptable cats, connect with other cat enthusiasts, and provide cat care guide. During project my role as a Hacker.'
     },
     {
         id: 'project-2',
-        name: 'Project 2',
+        name: 'KulkasKita',
         link: '',
         image: '',
-        description: 'test'
+        description: 'An application as a solution that provides users with convenience in inputting, monitoring, and freely storing food ingredients. Moreover, it includes an automatic food ingredient scanning feature. In this project my role as a Cloud Computing Developer.'
     },
     {
         id: 'project-3',
-        name: 'Project 3',
+        name: 'Fudty',
         link: '',
         image: '',
-        description: 'test'
+        description: 'A digital solution offering nutritional information, meal suggestions, and intuitive planning tools to help homemakers create diverse and healthy meals for their families. In this project my responsible as a  Project Manager.'
     },
     {
         id: 'project-4',
