@@ -13,6 +13,7 @@
 //     mysql,
 //     postgresql,
 //     figma,
+//     pawconnect2,
 // } from '../assets'
 
 // export const NavbarLinks = [
@@ -31,41 +32,49 @@
 //     {
 //         name: 'Experience',
 //         link: '/experience'
-//     }
+//     },
 //     {
 //         name: 'Contact',
 //         link: '/contact'
 //     },
 // ];
 
+import pawconnect1 from '../assets/pawconnect1.png';
+import pawconnect2 from '../assets/pawconnect2.png';
+import kulkaskita1 from '../assets/kulkaskita1.png';
+import kulkaskita2 from '../assets/kulkaskita2.png';
+import fudty from '../assets/fudty.png';
+import brownmix from '../assets/brownmix.png';
+
+
 export const projects = [
     {
         id: 'project-1',
         name: 'Paw Connect',
         link: '',
-        image: '',
+        image: pawconnect1,
         description: 'Paw Connect is a user-friendly website that provides a platform for cat lovers to easily find adoptable cats, connect with other cat enthusiasts, and provide cat care guide. During project my role as a Hacker.'
     },
     {
         id: 'project-2',
         name: 'KulkasKita',
         link: '',
-        image: '',
+        image: kulkaskita2,
         description: 'An application as a solution that provides users with convenience in inputting, monitoring, and freely storing food ingredients. Moreover, it includes an automatic food ingredient scanning feature. In this project my role as a Cloud Computing Developer.'
     },
     {
         id: 'project-3',
         name: 'Fudty',
         link: '',
-        image: '',
+        image: fudty,
         description: 'A digital solution offering nutritional information, meal suggestions, and intuitive planning tools to help homemakers create diverse and healthy meals for their families. In this project my responsible as a  Project Manager.'
     },
     {
         id: 'project-4',
-        name: 'Project 4',
+        name: 'Brownmix',
         link: '',
-        image: '',
-        description: 'test'
+        image: brownmix,
+        description: 'Lorem Ipsum'
     },
     {
         id: 'project-5',
@@ -118,8 +127,7 @@ export const experiences = [
         position: 'Cloud Engineer',
         duration: 'Feb - Jun 2023',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.'
-    }
-    // ... Tambahkan lebih banyak pengalaman jika diperlukan
+    },
 ];
 
 export const socialMedia = [

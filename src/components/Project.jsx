@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import styles from '../styles';
-import { projects } from '../constants/index';
+import { projects } from '../constants/index.js';
+
 
 const ProjectContainer = styled.div`
     padding: 200px;
@@ -10,9 +11,7 @@ const ProjectContainer = styled.div`
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    
-
-  ${styles.projectContainer}; 
+    ${styles.projectContainer}; 
 `;
 
 const ProjectHeading = styled.h3`
