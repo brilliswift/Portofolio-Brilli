@@ -6,7 +6,6 @@ import Project from "./Project";
 import Experience from "./Experience";
 
 
-
 const Homepage = () => {
     return (
         <>
