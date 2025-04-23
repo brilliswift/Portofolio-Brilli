@@ -10,7 +10,10 @@ const ProjectContainer = styled.div`
     display: flex;
     flex-direction: column; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #191919;
     ${styles.projectContainer}; 
 `;
 
