@@ -74,21 +74,7 @@ export const projects = [
         name: 'Brownmix',
         link: '',
         image: brownmix,
-        description: 'Lorem Ipsum'
-    },
-    {
-        id: 'project-5',
-        name: 'Project 5',
-        link: '',
-        image: '',
-        description: 'test'
-    },
-    {
-        id: 'project-6',
-        name: 'Project 6',
-        link: '',
-        image: '',
-        description: 'test'
+        description: 'A website for increase selling bread and cake at one of store located in Jambi. In this chance I had a journey of helping manage project also involve in backend development.'
     },
 ];
 
@@ -119,7 +105,7 @@ export const experiences = [
         company: 'Front-End Web Developer at KBM Al-Mahdiyyin',
         position: 'Front-End Web Developer',
         duration: 'Sept - Dec 2023',
-        description: 'Led web development project from conception to deployment using Agile methodologies. Managed UI/UX design process using Figma, ensuring alignment with user requirements. Coordinated between design and development teams to ensure timely project delivery. Conducted user interviews and usability testing to gather insights and understand user pain points for the attendance web application project at KBM Al-Mahdiyyin. Established project milestones and KPIs, achieving 90% on-time delivery.\n',
+        description: 'Defined project scope and set milestones using project management methodologies. Designed UI/UX for an attendance web application using Figma. Conducted user interviews and usability testing to gather insights and understand user pain points for the attendance web application project at KBM Al-Mahdiyyin. Implemented the designed UI/UX for the web application.\n',
     },
     {
         id: 'experience-5',
