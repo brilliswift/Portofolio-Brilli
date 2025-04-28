@@ -27,7 +27,7 @@ const About = () => {
         <>
             <div className="flex flex-col text-center">
                 <p className={`${styles.paragraph}`}>
-                    I am a full-stack developer with 2 years of experience
+                    I am a full-stack developer with 1 year of experience
                 </p>
                 <p className={`${styles.paragraph}`}>
                     specializing in front-end and back-end development.
