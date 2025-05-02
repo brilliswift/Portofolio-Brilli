@@ -29,7 +29,7 @@ const Contact= () => {
         <ContactContainer className="contact-container">
             <ContactHeading className={`${styles.heading3}`}>Contact</ContactHeading>
             <p>
-                Seasoned Full Stack Developer with over 2 years of hands-on experience in designing
+                Seasoned Full Stack Developer with over 1 year of hands-on experience in designing
                 and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
                 comprehensive skill set encompassing front-end and back-end technologies
             </p>
