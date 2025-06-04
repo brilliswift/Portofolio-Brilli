@@ -11,12 +11,11 @@ const App = () => (
         <div className="bg-[#161513] min-h-screen">
             <Navbar/>
             <Homepage/>
-            <Contact/>
             <Routes>
-                <Route path="/" component={Homepage} />
-                <Route path="/project" component={Project} />
-                <Route path="/experience" component={Experience} />
-                <Route path="/contact" component={Contact} />
+                <Route path="/" element={<Homepage />} />
+                <Route path="/project" element={<Project />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </div>
     </BrowserRouter>
