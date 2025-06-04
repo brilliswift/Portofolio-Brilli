@@ -33,10 +33,10 @@ const About = () => {
                     specializing in front-end and back-end development.
                 </p>
                 <p className={`${styles.paragraph}`}>
-                    My expertise lies in crafting robust and scalable SaaS-based
+                    My expertise lies in crafting robust collaboration team and
                 </p>
                 <p className={`${styles.paragraph}`}>
-                    architectures on the Google Cloud Platform.
+                    foundation on the Google Cloud Platform.
                 </p>
                 <div
                     className={css`
