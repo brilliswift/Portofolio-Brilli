@@ -45,12 +45,14 @@ import kulkaskita1 from '../assets/kulkaskita1.png';
 import kulkaskita2 from '../assets/kulkaskita2.png';
 import fudty from '../assets/fudty.png';
 import brownmix from '../assets/brownmix.png';
+import profile from '../assets/profile.png';
+import brillilogo from '../assets/brilli-logo.png';
 
 
 export const projects = [
     {
         id: 'project-1',
-        name: 'Paw Connect',
+        name: 'Rarasati',
         link: '',
         image: pawconnect1,
         description: 'Paw Connect is a user-friendly website that provides a platform for cat lovers to easily find adoptable cats, connect with other cat enthusiasts, and provide cat care guide. During project my role as a Hacker.'
