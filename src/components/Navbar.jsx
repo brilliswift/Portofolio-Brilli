@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 
+
 const NavContainer = styled.nav`
     background: #222222;
     color: #ffffff;
@@ -21,7 +22,7 @@ const Navbar = () => {
         <NavContainer>
             <div>
                 <Link to="/" className="flex items-center">
-                    <img className="w-8 h-8 mr-2" alt="Logo" src="/path/to/your/logo.svg" />
+                    <img className="w-8 h-8 mr-2" alt="Logo" src=" " />
                 </Link>
             </div>
             <div className="flex space-x-10">
